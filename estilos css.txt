@@ -1,0 +1,63 @@
+body{
+    background-color: #fecd23;
+    color:#0a996f;
+    font-family: 'Edu TAS Beginner', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+    }
+
+/*Así se pone un comentario*/
+/*PALETA DE COLORES
+    https://paletadecolores.com.mx/paleta/cf0638/fa6632/fecd23/0a996f/0a6789/
+*/
+
+/*FORMA DE COMPACTAR
+h1, P{
+    color: #cf0638;
+    }
+*/
+
+h1{
+    color: #0a6789;
+}
+
+h3{
+    color:#fa6632;
+}
+
+p{
+    color: #cf0638;
+}
+
+.img1 {
+    width: 400px;
+    height: 350px;
+    border-style:double solid;
+    border-width: 10px;
+    border-color: #0a6789;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.img2 {
+    width: 500px;
+    height: 350px;
+    border-style: solid double;
+    border-width: 10px;
+    border-color:#0a996f;
+    margin-left: 15px;
+    margin-top: 50px;
+    margin-top: 50px;
+}
+
+footer{
+    background-color:rgb(26, 75, 85);
+}
+
+small, a{
+    color: white;
+    margin-bottom: 50px;
+}
+

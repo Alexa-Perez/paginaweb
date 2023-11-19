@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<head>
+    <title>LAISHA</title>
+    <link href="estilos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@700&family=Montserrat:wght@600&family=Oswald:wght@600&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <h1>Página de PERRITOS</h1>
+    <h3>Imágenes de COCKER SPANIEL</h3>
+
+    <!--INDICADOR DE IMAGENES class="etiqueta"-->
+    <!--Insertar imagen desde la web-->
+    <img class="img1" src="https://www.purina.es/sites/default/files/styles/ttt_image_510/public/2021-02/BREED%20Hero%20Mobile_0020_spaniel_cocker.jpg?itok=Y1VZwd8t"> 
+    <br>
+
+    <!--Insertar imagen guardada-->
+    <img class="img2" src="imagenes/perrito.webp">
+
+    <!--Enlaces externos-->
+    <p>Si quieres ver más imagenes de perritos cocker spaniel, <a href="https://www.google.com/search?q=cocker+spaniel&newwindow=1&sca_esv=580393850&tbm=isch&sxsrf=AM9HkKnW5iZlY4sBHixkmXrK49QDy4Euig:1699425866243&source=lnms&sa=X&ved=2ahUKEwjHg9HY5rOCAxUOk2oFHdvKBbQQ_AUoAXoECAMQAw&biw=1912&bih=958&dpr=1" target="_blanck"> da click en este enlace</a>.</p>
+
+    <h3>Listas de PERRITOS</h3>
+    <p> 3 cosas que los perros <strong>aman</strong></p>
+
+    <!--Lista ordenada-->
+    <ol>
+        <li>Quitarte tu comida</li>
+        <li>Dormir</li>
+        <li>Jugar con botellas de plástico</li>
+    </ol>
+
+    <p>3 Cosas que los perritos <i></i>odian</p>
+    <!--Lista desordenada-->
+    <ul>
+    <li>Los truenos</li>
+    <li>Que no les des premios</li>
+    <li>Que te les quedes viendo</li>
+    </ul>
+
+    <!--Formularios-->
+    <form>
+            <!--Form con botones de radio-->
+            <p>¿Tu mascota es joven o adulto?
+            </p>
+            <label>
+                <input id="joven" type="radio" value="Joven" 
+                name="form-perros">Joven
+            </input>
+            </label>
+
+            <label>
+                <input id="adulto" type="radio" value="Adulto" 
+                name="form-perros">Adulto
+            </input>
+            </label>
+
+            <!--Forms de verificación/check-->
+            <p>¿Qué tipo de personalidad tiene tu perrito?</p>
+
+            <label>
+                <input id="amigable" type="checkbox" value="amigable" name="personalidad">Amigable
+            </input>
+            </label>
+
+            <label>
+                <input id="tosco" type="checkbox" value="tosco" name="personalidad">Tosco
+            </input>
+            </label>
+
+            <label>
+                <input id="humilde" type="checkbox" value="humilde" name="personalidad" checked>Humilde
+            </input>
+            </label>
+    </form>
+
+
+</body>
+
+<footer>
+<p><small>Esta página fue creada durante el BOOTCAMP de <a href="https://tecnolochicas.mx/" target="_blanck">Tecnolochicas PRO.</a></small></p>
+</footer>
